@@ -1,23 +1,7 @@
-[![Work in MakeCode](https://classroom.github.com/assets/work-in-make-code-c53f0c86300af1a64cdd5dc830e2509efd17c8cb483a722cacaee84d10eb8ec9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5381571&assignment_repo_type=AssignmentRepo)
-# Bireysel Araştırma Ödevi
+Thread, her bir işlemin altında çalışan alt işlemlere denir.  Runnable arayüzünün kullanımı için arayüz metotları sınıf tarafından  uygulanır yani implements, başka sınıftan kalıtım alabiliriz. Threadler iş parçacıkları olduklarından çoklu görevlerde senkronizasyon sağlarlar. Avantajı aynı anda birdan fazla işlemi gerçekleştirebilirsiniz. Dezavantajı ise thread sayısı ile her bir threadın çalıştırılma miktarı arasında ters bir ortantı söz konusu olmasıdır. Runnable arayüzü Thread sınıfının sahip olduğu bazı metodlara sahip değildir. Dolayısıyla Runnable arayüzünü implemente edersek bu ilgili metodları kullanamayız.
 
-Aşağıdaki referans linkinden Thread emniyeti ile ilgili bir tane konuyu seçmenizi bekliyoruz. Konu seçtikten sonra bununla ilgili bir araştırma yapıp örnek kodlama yapmanızı bekliyoruz.
-
-## Zorunlu Şartlar
-Ödevi tamamlamak için:
-- Bir `maven` projesi oluşturmanızı bekliyoruz.
-- Oluşturduğunuz `maven` projesi derste anlatılan multi-threading yöntemlerinden birini(Thread Inheritance, Runnable or Callable Implementation, Lambda Expressions) kullanmalı.
-- Yaptığınız araştırmanın bir özetini `RESEARCH.md` adında bir dokümana yazmanızı bekliyoruz. Bu dokümanda beklediğimiz bilgiler Ne(Emniyetin Açıklaması)? Nerde(Hangi Durumlarda)? Niçin(Avantajları ve Dezavantajları)? sorularının cevabını vermelidir. Ayrıca bu dokümana incelediğiniz kaynakları eklemeyi unutmayınız :-)
-
-## Opsiyonel Şartler
-- "Spring Boot ile Multithreading" araştırması yapıp `ADDITIONAL_INFO.md` adında bir dokümana öğrendiğiniz bilgileri yazabilirsiniz.
-- Spring Boot ile multithreading emniyeti *YAPMAMALISINIZ*.
-
-## Diğer Bilgiler
-
-**Bitiş Tarihi:** 6 Ağustos 2021 
-**Bitiş Saati:** Saat 23:50
-
-## Referanslar
-
-- https://www.baeldung.com/java-thread-safety
+Kaynak:
+1.	https://www.gencayyildiz.com/blog/multi-thread-calismanin-avantaj-ve-dezavantajlari/
+2.	https://developpaper.com/analysis-of-spring-boot-timing-multithreading-execution-process/
+3.	https://www.youtube.com/watch?v=F49Ir793Ppw
+4.	https://www.youtube.com/watch?v=UBYKOazm8Dg
